@@ -1,0 +1,8 @@
+<table>
+    <thead><td>ID</td><td>Tekst</td><td>Decimal</td></thead>
+    <tr th:each="item : ${list}">
+        <td th:text="${item.id}"/></td>
+        <td th:text="${item.text}"/></td>
+        <td th:text="${item.number}"/></td>
+    </tr>
+</table>
